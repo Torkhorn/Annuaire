@@ -88,7 +88,7 @@
 			</div>
 		</footer> -->
 
-	<div ng-controller='accueilController'>
+	<div ng-controller='loginController'>
 		{{data.test}}
 		<button ng-click="getlist()">ok</button>
 	</div>
