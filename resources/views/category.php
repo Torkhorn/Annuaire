@@ -15,7 +15,7 @@
 		<title>annuaire ifa</title>
 	</head>
 	<body>
-		fgjkdfgjkdfgjkld
+		<h1> Les categories </h1>
 		<ng-view></ng-view>
 	</body>
 </html>
