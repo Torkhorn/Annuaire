@@ -1,12 +1,8 @@
 
 
 <nav class="navbar navbar-dark bg-dark">
-<<<<<<< HEAD
 	<a class="navbar-brand" href="#">IFA</a>
-<<<<<<< HEAD
-=======
 	<a class="navbar-brand" href="#">Navbar w/ text</a>
->>>>>>> 15c284a66f360eed5777ead1bb6b5b2dd58fc3f0
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -27,7 +23,6 @@
 			</span>
 		</div>
 	</nav>
-=======
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>
@@ -48,12 +43,7 @@
 		</span>
 	</div>
 </nav>
->>>>>>> accueil
 
-	
-<<<<<<< HEAD
-
-<<<<<<< HEAD
 		<div class="container">
         <form class="form-horizontal" role="form" method="POST" action="/login">
             <div class="row">
@@ -124,7 +114,6 @@
             </div>
         </form>
     </div>
-=======
 	
 		<section id="login">
 			<div class="container">
@@ -155,7 +144,6 @@
 				</div> <!-- /.row -->
 			</div> <!-- /.container -->
 		</section>
->>>>>>> 15c284a66f360eed5777ead1bb6b5b2dd58fc3f0
 
 		<div class="modal fade forget-modal" tabindex="-1" role="dialog" aria-labelledby="myForgetModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-sm">
@@ -170,7 +158,6 @@
 					<div class="modal-body">
 						<p>Type your email account</p>
 						<input type="email" name="recovery-email" id="recovery-email" class="form-control" autocomplete="off">
-=======
 <div class="container">
 	<form class="form-horizontal" role="form" method="POST" action="/login">
 		<div class="row">
@@ -189,7 +176,7 @@
 						<div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-at"></i></div>
 						<input type="text" name="email" class="form-control" id="email"
 								placeholder="you@example.com" required autofocus>
->>>>>>> accueil
+
 					</div>
 				</div>
 			</div>
@@ -280,13 +267,8 @@
 			</div>
 		</footer> -->
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 	<div ng-controller='loginController'>
-=======
 	<div ng-controller='accueilController'>
->>>>>>> 15c284a66f360eed5777ead1bb6b5b2dd58fc3f0
-=======
 	<!-- <div ng-controller='loginController'>
 >>>>>>> accueil
 		{{data.test}}
