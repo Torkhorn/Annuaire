@@ -1,7 +1,11 @@
 
 
 <nav class="navbar navbar-dark bg-dark">
+<<<<<<< HEAD
 	<a class="navbar-brand" href="#">IFA</a>
+=======
+	<a class="navbar-brand" href="#">Navbar w/ text</a>
+>>>>>>> 15c284a66f360eed5777ead1bb6b5b2dd58fc3f0
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -24,6 +28,7 @@
 	</nav>
 
 	
+<<<<<<< HEAD
 
 		<div class="container">
         <form class="form-horizontal" role="form" method="POST" action="/login">
@@ -95,6 +100,38 @@
             </div>
         </form>
     </div>
+=======
+	
+		<section id="login">
+			<div class="container">
+				<div class="row justify-content-md-center">
+				<!-- <div class="row"> -->
+					<div class="col-xs-12">
+						<div class="form-wrap">
+						<h1>Connectez-vous avec votre adresse mail</h1>
+							<form role="form" action="javascript:;" method="post" id="login-form" autocomplete="off">
+								<div class="form-group">
+									<label for="email" class="sr-only">Email</label>
+									<input type="email" name="email" id="email" class="form-control" placeholder="somebody@example.com">
+								</div>
+								<div class="form-group">
+									<label for="key" class="sr-only">Password</label>
+									<input type="password" name="key" id="key" class="form-control" placeholder="Password">
+								</div>
+								<div class="checkbox">
+									<span class="character-checkbox" onclick="showPassword()"></span>
+									<span class="label">Show password</span>
+								</div>
+								<input type="submit" id="btn-login" class="btn btn-custom btn-lg btn-block" value="Log in">
+							</form>
+							<a href="javascript:;" class="forget" data-toggle="modal" data-target=".forget-modal">Forgot your password?</a>
+							<hr>
+						</div>
+					</div> <!-- /.col-xs-12 -->
+				</div> <!-- /.row -->
+			</div> <!-- /.container -->
+		</section>
+>>>>>>> 15c284a66f360eed5777ead1bb6b5b2dd58fc3f0
 
 		<div class="modal fade forget-modal" tabindex="-1" role="dialog" aria-labelledby="myForgetModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-sm">
@@ -129,7 +166,11 @@
 			</div>
 		</footer> -->
 
+<<<<<<< HEAD
 	<div ng-controller='loginController'>
+=======
+	<div ng-controller='accueilController'>
+>>>>>>> 15c284a66f360eed5777ead1bb6b5b2dd58fc3f0
 		{{data.test}}
 		<button ng-click="getlist()">ok</button>
 	</div>
