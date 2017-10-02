@@ -17,3 +17,4 @@ Route::get('/', function () {
 
 Route::get('/accueil', 'AccueilController@get');
 Route::get('/accueil/{id}', 'AccueilController@getID');
+Route::post('/recherche','UsersController@get');

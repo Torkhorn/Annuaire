@@ -25,6 +25,7 @@ Backend :
 ceux qui travaillent partie back-end vont dans le répertoire app à la racine
 les fichiers modeles sont dans /app
 et les controleurs (ceux qui renvoient des data.json) se trouvent dans /app/http
+
 Pour créer un controleur avec Laravel on peut utiliser la cmd php artisan make:controller {Nom}Controller
 
 
