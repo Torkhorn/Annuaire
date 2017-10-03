@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark bg-dark">
+<!-- <nav class="navbar navbar-dark bg-dark">
 	<a class="navbar-brand" href="#">IFA</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
@@ -19,7 +19,10 @@
 		Navbar text with an inline element
 		</span>
 	</div>
-</nav>
+</nav> -->
+
+<my-navbar>
+</my-navbar>
 
 
 
@@ -130,17 +133,17 @@
 		</div>
 	</div>
 </footer> -->
+<footer class="footer">
+	<div class="container">
+		<ul class="social-icon animate pull-right">
+			<li><a href="#" title="facebook" target="_blank"><i class="fa fa-facebook"></i></a></li> <!-- change the link to social page and edit title-->
+			<li><a href="#" title="twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#" title="google plus" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+		</ul>
+	</div>
+</footer>
 
-<!-- <div ng-controller='loginController'>
-{{data.test}}
-<button ng-click="getlist()">ok</button>
-</div> -->
 					
-
+<!-- 
 <div ng-controller='loginController'>
-<div ng-controller='accueilController'>
-<!-- <div ng-controller='loginController'>
->>>>>>> accueil
-	{{data.test}}
-	<button ng-click="getlist()">ok</button>
-</div> -->
+<div ng-controller='accueilController'> -->
