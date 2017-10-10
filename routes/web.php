@@ -23,3 +23,5 @@ Route::get('/category', function(){ return view('category');
 });
 
 Route::post('/recherche','UsersController@get');
+
+Route::post('/profil/{id}', 'ProfilController@get');
