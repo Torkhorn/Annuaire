@@ -21,7 +21,6 @@
 
 require __DIR__.'/../bootstrap/autoload.php';
 require __DIR__.'/../public/app/directives/navbar.js';
-
 /*
 |--------------------------------------------------------------------------
 | Turn On The Lights
