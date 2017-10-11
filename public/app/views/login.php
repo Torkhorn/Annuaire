@@ -138,7 +138,7 @@
 					
 
 <div ng-controller='loginController'>
-<div ng-controller='accueilController'>
+<!-- <div ng-controller='accueilController'> -->
 <!-- <div ng-controller='loginController'>
 >>>>>>> accueil
 	{{data.test}}
