@@ -141,15 +141,4 @@
 </footer>
 
 					
-<!-- 
 <div ng-controller='loginController'>
-<<<<<<< HEAD
-<!-- <div ng-controller='accueilController'> -->
-<!-- <div ng-controller='loginController'>
->>>>>>> accueil
-	{{data.test}}
-	<button ng-click="getlist()">ok</button>
-</div> -->
-=======
-<div ng-controller='accueilController'> -->
->>>>>>> 6ec49f680d3290b8a98c6e2544eb0d9c2c1d96d9
