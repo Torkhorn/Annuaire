@@ -3,7 +3,7 @@
 app.config(function($routeProvider) {
 	$routeProvider.when('/login',{
 		templateUrl: 'app/views/login.php',
-		controller: 'loginController'
+		controller: 'loginController' 
 	})
 	$routeProvider.when('/accueil',{
 		templateUrl: 'app/views/accueil.php',
