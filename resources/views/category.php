@@ -2,9 +2,6 @@
 <html ng-app="app">
 	<head>
 		<meta charset="utf-8">
-		 <!-- Stylesheets -->
-		<link rel="stylesheet" href="css/custom.css">
-		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
@@ -13,12 +10,12 @@
 		<script type="text/javascript" src="<?php echo url('app/node_modules/angular-route/angular-route.min.js') ?>"></script>
 		<script type="text/javascript" src="<?php echo url('app/app.js') ?>"></script>
 		<script type="text/javascript" src="<?php echo url('app/routing.js') ?>"></script>
-		<script type="text/javascript" src="<?php echo url('app/controllers/loginController.js') ?>"></script>
+		<script type="text/javascript" src="<?php echo url('app/controllers/accueilController.js') ?>"></script>
 		
 		<title>annuaire ifa</title>
 	</head>
 	<body>
-		fgjkdfgjkdfgjkld
+		<h1> Les categories </h1>
 		<ng-view></ng-view>
 	</body>
 </html>
