@@ -82,12 +82,6 @@
             </table>
         </div>
     
-<<<<<<< HEAD
-=======
-        <h1>Page d'accueil</h1>
-
-
->>>>>>> mapping
     </div>
 
 </div>

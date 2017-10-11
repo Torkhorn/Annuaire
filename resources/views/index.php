@@ -18,7 +18,6 @@
 		<title>annuaire ifa</title>
 	</head>
 	<body>
-		fgjkdfgjkdfgjkld
 		<ng-view></ng-view>
 	</body>
 </html>
