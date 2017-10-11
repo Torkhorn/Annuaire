@@ -11,6 +11,4 @@ app.controller('loginController', function($scope, $http, $location, VARENV){
 
 	$scope.data={};
 
-
-
 });
