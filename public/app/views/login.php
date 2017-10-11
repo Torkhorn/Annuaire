@@ -9,7 +9,7 @@
 		<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 	</li>
 	<li class="nav-item">
-		<a class="nav-link" href="#">Features</a>
+		<a class="nav-link" href="#git stat">Features</a>
 	</li>
 	<li class="nav-item">
 		<a class="nav-link" href="#">Pricing</a>
