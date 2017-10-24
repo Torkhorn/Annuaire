@@ -36,6 +36,7 @@
                 <div class="form-group">
                     <input type="prenom" class="form-control" id="exampleInputPrenom1" placeholder="Prénom">
                 </div>
+                <!-- Il faut essayer de faire les choix des scrollbox en AngularJS ! -->
                 <div class="form-group">
                     <select class="form-control" id="selectFormation">
                     <option>BTS</option>
@@ -65,6 +66,7 @@
                     </tr>
                 </thead>
                 <tbody>
+                <!-- Faire les lignes du tableau en AngularJs  -->
                     <tr>
                     <th scope="row">1</th>
                     <td>Mark</td>
