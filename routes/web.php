@@ -17,3 +17,9 @@ Route::get('/', function () {
 
 Route::get('/accueil', 'AccueilController@get');
 Route::get('/accueil/{id}', 'AccueilController@getID');
+
+// Route::get('/category', 'CategoryController@index');
+Route::get('/category', function(){ return view('category');
+});
+
+Route::post('/recherche','UsersController@get');
